@@ -6,6 +6,9 @@ body {
     scroll-behavior: smooth;
 }
 
+img {
+    width: 50%;
+}
 .login {
     position: relative;
     top: 38vh;
@@ -77,18 +80,18 @@ body {
   #gmailapp {
       display: block;
       position: relative;
-      top: 100vh;
-      left: 36vw;
-      padding-bottom: 20vh;
+      top: 130vh;
+      left: 42vw;
+      padding-bottom: 30vh;
       width: 30vw;
       animation-duration: 1s;
       animation-name: gmailapp;
-      animation-delay: 2s;
-      animation-iteration-count: 6;
-      z-index: 5;
+      animation-delay: none;
+      animation-iteration-count: 12;
+      z-index: 2;
   }
 
   @keyframes gmailapp {
-    0%   {left:36vw; top:100vh}
-    25%   {left:36vw; top:95vh}
+    0%   {left:42vw; top:130vh}
+    25%   {left:42vw; top:125vh}
   }
