@@ -3,12 +3,13 @@
 body {
     background-color: black;
     color: white;
-    scroll-behavior: smooth;
 }
 
 img {
     width: 50%;
 }
+
+/* the white box with login information */
 .login {
     position: relative;
     top: 38vh;
@@ -29,6 +30,7 @@ img {
     font-weight: 400;
 }
 
+/* the call to action words in first section of webpage above arrow */
 .notification {
     display: inline-block;
     position: relative;
@@ -43,11 +45,13 @@ img {
     z-index: 5;
 }
 
+/* to animate the words on the first section of webpage */
 @keyframes notification{
 0% {left: 44.5vw; top: 60vh}
 25% {left: 44.5vw; top: 55vh}
 }
 
+/* the arrow */
 .arrow {
         position: absolute;
         left: 48vw;
@@ -67,16 +71,13 @@ img {
         z-index: 5;
 }
 
-.arrow:hover {
-    border-bottom-width: 2px;
-    border-right-width: 2px;
-  }
-  
+/* to animate the arrow on the first section of webpage */
   @keyframes arrow {
     0%   {left:48vw; top:90vh}
     25%   {left:48vw; top:85vh}
   }
 
+/* gmail app icon with notfication symbol */
   #gmailapp {
       display: block;
       position: relative;
@@ -91,6 +92,7 @@ img {
       z-index: 2;
   }
 
+/* to animate the gmail app icon and notification symbol */
   @keyframes gmailapp {
     0%   {left:42vw; top:130vh}
     25%   {left:42vw; top:125vh}
