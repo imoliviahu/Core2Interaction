@@ -1,0 +1,18 @@
+html {
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh; /*100% of viewport browser*/
+    border: 1px solid black;
+}
+
+header p { /*any paragraphs in header contain these elements*/
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+div.info {
+    border: 1px solid black;
+}
