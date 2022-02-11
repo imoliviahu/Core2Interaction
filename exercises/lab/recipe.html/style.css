@@ -1,0 +1,18 @@
+html {
+   font-family: sans-serif;
+}
+
+ul {
+    color:red;
+    font-family: monospace;
+}
+
+p {
+    max-width: 20em; 
+}
+
+.ingredient {
+    font-family: serif;
+}
+
+/*html is the parent of everything*/
