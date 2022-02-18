@@ -5,14 +5,53 @@ html {
 header {
     height: 100vh; /*100% of viewport browser*/
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*gives space between all the contents*/
 }
 
-header p { /*any paragraphs in header contain these elements*/
+p.title { /* header p(any paragraphs in header contain these element) or you can do p.title which does same thing (any paragraph with the title class will have these elements*/
     text-align: center;
-    font-size: 48px;
+    font-size: 26vh;
     text-transform: uppercase;
+    /* border: 1px solid salmon; */
+    margin: 0;
+    line-height: 0.9;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -0.07em;
+    text-shadow: 9px 2px #ff0000; /* first pixels mean x-width of shadow and the second pixels mean y-height of shadow */
 }
 
 div.info {
     border: 1px solid black;
-}
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw; 
+    padding: 20px;
+    background-image: url("https://de-production-media.s3.amazonaws.com/loft/4405/painted-ladies-san-francisco.jpg");
+    background-size: cover;
+    height: 100%;
+}   
+
+ /*padding vs margins: margins apply to the outside & padding applies to the inside*/
+
+ ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ h1{
+    /* text-align: right; */
+    max-width: 50%;
+    margin-left: auto;
+    color: white;
+    text-indent: -2em;
+    text-transform: uppercase;
+    font-style: italic;
+ }
+
+ .letter-d {
+    font-family: serif;
+    color: pink;
+ }

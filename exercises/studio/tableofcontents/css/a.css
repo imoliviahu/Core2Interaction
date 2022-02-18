@@ -1,0 +1,61 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    height: 100vh;
+}
+
+.entries {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 1;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.chapter {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.page {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 20px;
+}
+ 
+.description {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin: 0;
+}
+
