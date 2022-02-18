@@ -29,14 +29,20 @@ p.title { /* header p(any paragraphs in header contain these element) or you can
     background-image: url("guineapigs.png");
     background-repeat: no-repeat;
     background-position: 55vh;
-
+    background-size: 35%;
 }
 
 article {
-margin: 40px;
+    margin: 40px;
 }
 
- h1{
+img {
+    float: right;
+    padding: 20px;
+    width: 30%;
+}
+
+h1{
     max-width: 50%;
     margin-left: auto;
     color: white;
@@ -45,13 +51,13 @@ margin: 40px;
     font-style: italic;
  }
 
- h2 {
+h2 {
     font-family: 'Poppins', san-serif;
     font-size: 30px;
     color: #AEE361;
  }
  
- h3 {
+h3 {
     font-family: 'Poppins', san-serif;
     font-size: 18px;
     color: #F4A027;
