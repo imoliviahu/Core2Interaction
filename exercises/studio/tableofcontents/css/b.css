@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    font-family:'Poppins', sans-serif;
+}
+
+.wrapper {
+    font-size: 30px;
+    margin-left: 8vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 10px;
+}
+
+.entries0 {
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries1 {
+    grid-column-start: 2;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries2 {
+    grid-column-start: 3;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries3 {
+    grid-column-start: 4;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries4 {
+    grid-column-start: 5;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries5 {
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries6 {
+    grid-column-start: 2;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries7 {
+    grid-column-start: 3;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries8 {
+    grid-column-start: 4;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries9 {
+    grid-column-start: 5;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries10 {
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries11 {
+    grid-column-start: 2;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries12 {
+    grid-column-start: 3;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries13 {
+    grid-column-start: 4;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries14 {
+    grid-column-start: 5;
+    font-size: 30px;
+    font-weight: 300;
+}
+.entries15 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h1 {
+    position: relative;
+    left: -5vw;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+h2 {
+    position: relative;
+    left: -5vw;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.chapter {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.page {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 0px;
+}
+ 
+.description {
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;600&display=swap');
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Cormorant', serif;
 }
 
 .wrapper {
@@ -8,7 +9,6 @@ body {
     justify-content: center;
     flex-direction: column;
     font-size: 30px;
-    height: 100vh;
 }
 
 .entries {
@@ -18,9 +18,10 @@ body {
 }
 
 h1 {
+    position: relative;
     text-align: center;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 40px;
 }
 
@@ -31,31 +32,35 @@ h2 {
     margin: 1;
 }
 
-.heading {
+h3 {
+    text-align: center;
     font-size: 30px;
     font-weight: 300;
+    margin: 1;
+}
+.heading {
+    font-size: 30px;
     margin-bottom: 60px;
 }
 
 .chapter {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
-    letter-spacing: 10px;
     margin-bottom: 20px;
 }
 
 .page {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
  
 .description {
     font-size: 30px;
-    font-weight: 300;
     display: block;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;400;800&display=swap');
+body {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Arima Madurai', sans-serif;
+}
+
+.wrapper {
+    margin-left: 8vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 10px;
+}
+
+.entries0 {
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries1 {
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries2 {
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries3 {
+    grid-column-start: 2;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries4 {
+    grid-column-start: 2;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries5 {
+    grid-column-start: 2;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries6 {
+    grid-column-start: 3;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries7 {
+    grid-column-start: 3;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries8 {
+    grid-column-start: 3;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries9 {
+    grid-column-start: 4;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries10 {
+    grid-column-start: 4;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries11 {
+    grid-column-start: 4;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries12 {
+    grid-column-start: 6;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries13 {
+    grid-column-start: 6;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries14 {
+    grid-column-start: 6;
+    font-size: 30px;
+    font-weight: 100;
+}
+.entries15 {
+    grid-column-start: 6;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h1 {
+    position: relative;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 1;
+}
+
+.heading {
+    font-weight: 100;
+}
+
+.chapter {
+    text-align: left;
+    font-weight: 800;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.page {
+    font-weight: 100;
+    display: block;
+}
+ 
+.description {
+    font-weight: 100;
+    display: block;
+    margin: 0;
+}
+
