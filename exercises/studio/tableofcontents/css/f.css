@@ -53,6 +53,7 @@ h2 {
 
 .page {
     display: block;
+    font-weight: 300;
 }
  
 .description {
