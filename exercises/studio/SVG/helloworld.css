@@ -1,0 +1,31 @@
+
+body {
+    background-color: pink;
+    font-family: arial;
+    color: red;
+    font-size: 100px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .item {
+    text-align: center;
+    animation: spinType 2s;
+    animation-iteration-count: 5;
+  }
+
+ 
+@keyframes spinType {
+    0% { /* Your CSS for first keyframe goes here */
+        transform: rotate(0);
+    }
+    100% { /* Your CSS for the last keyframe goes here */
+        transform: rotate(90deg)
+    }
+    }

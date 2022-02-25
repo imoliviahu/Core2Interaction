@@ -19,6 +19,7 @@ body {
 .entries6, .entries7, .entries8, .entries9, .entries10, .entries11, 
 .entries12, .entries13, .entries14, .entries15 {
     font-size: 30px; 
+    width: 500px;
 }
 
 h1 {
