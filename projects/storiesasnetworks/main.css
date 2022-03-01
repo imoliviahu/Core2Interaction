@@ -1,0 +1,40 @@
+
+html {
+    background-color: black;
+}
+
+.questionmarks {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 70% 70% 70% 70% 70% 70%;
+    font-family: 'Times New Roman', serif;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    color: white;
+    font-size: 100px;
+}
+
+section.questionmarks span:nth-child(5n) {
+    transform: rotate(-20deg);
+  }  
+
+section.questionmarks span:nth-child(6n) {
+    transform: rotate(10deg);
+}  
+  
+
+span.pickme:hover {
+    color: red;
+}
+
+.exclamationmarks {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 70% 70% 70% 70% 70% 70%;
+    font-family: 'Times New Roman', serif;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    margin-top: 75vh;
+    color: white;
+    font-size: 100px;
+}
