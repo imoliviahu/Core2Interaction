@@ -1,38 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Poppins:wght@200;400&display=swap');
 
-body {
-    font-family: 'Poppins', serif;
+html{
+    scroll-behavior: smooth;
 }
 
+body {
+    text-align: center;
+    background: radial-gradient(#88F1EA, #9198e5);
+    color: white;
+    height: 400vh;
+}
+
+.welcomepage {
+    height: 100vh;
+}
 h1 {
+    position: relative;
     font-family: 'Bodoni Moda', serif;
     font-weight: 400;
     font-style: italic;
     font-size: 100pt;
+    top: 30vh;
     margin: 0;
-    padding: 0;
     text-transform: uppercase;
 }
 
-h2{
-    font-size: 30pt;
-    font-family: sans-serif;
+.title {
+    font-family: 'Poppins', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15pt;
+    text-align: left;
+    margin-left: 10px;
 }
 
 h2{
-    font-size: 25pt;
-    font-family: sans-serif;
+    font-family: 'Poppins', serif;
+    font-size: 30pt;
+    text-transform: uppercase;
 }
 
 p {
     font-size: 20pt;
-    font-family: sans-serif;
+}
+
+.studio {
+    display: inline-block;
+    position: relative;
+    top: 50vh;
+}
+
+.lab {
+    display: inline-block;
+    position: relative;
+    top: 50vh;
+    margin-left: 50px;
+}
+
+.students {
+    display: inline-block;
+    position: relative;
+    top: 50vh;
+    margin-right: 50px;
+}
+
+#studio {
+    position: relative;
+    top: 100vh;
+    padding: 100px;
+}
+
+#lab {
+    position: relative;
+    top: 150vh;
+}
+
+#homework1 {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(4 1fr);
 }
 
 a:link, a:visited{
-    font-size: 15pt;
     font-family: 'Poppins', sans-serif; 
     font-weight: 200;
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: white;
 }
