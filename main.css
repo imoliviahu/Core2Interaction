@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Poppins:wght@200;400&display=swap');
 
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', serif;
 }
 
 h1 {
-    font-size: 35pt;
-    font-family: sans-serif;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100pt;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
 }
 
 h2{
@@ -23,7 +29,10 @@ p {
     font-family: sans-serif;
 }
 
-a{
+a:link, a:visited{
     font-size: 15pt;
-    font-family: sans-serif; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
 }
