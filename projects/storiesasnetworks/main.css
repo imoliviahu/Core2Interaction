@@ -8,7 +8,7 @@ html {
     position: relative;
     z-index: 0; 
     top: 28vh; 
-    left: -6vw;
+    left: -7vw;
     font-size: 9vw;
     white-space: nowrap;
     animation: fadein 5s;
@@ -109,7 +109,7 @@ section.punctuations span:nth-child(8) {
     animation-timing-function: linear; 
 }
 
-.keyword {
+.keywords {
     color: red;
 }
 .questionmarks {
