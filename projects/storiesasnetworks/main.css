@@ -4,6 +4,10 @@ html {
     background-color: black;
 }
 
+body {
+    height: 650vh;
+}
+
 .title {
     position: relative;
     z-index: 0; 
@@ -15,6 +19,18 @@ html {
     color: white;
     font-family: 'Noto Serif', serif;
   }
+
+.author {
+    position: relative;
+    z-index: 0; 
+    top: 32vh; 
+    left: 30vw;
+    font-size: 4vw;
+    white-space: nowrap;
+    animation: fadein 5s;
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
 
   @keyframes fadein {
     0% {opacity:0;}
@@ -279,7 +295,7 @@ section.exclamationmarks span:nth-child(5n) {
 
 section.exclamationmarks span:nth-child(1) {
     animation-name: spin1;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -291,14 +307,14 @@ section.exclamationmarks span:nth-child(2) {
     animation-timing-function: linear; 
 }
 
-section.exclamationmarks span:nth-child(7) {
+section.exclamationmarks div:nth-child(7) {
     animation-name: spin2;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
-section.exclamationmarks div:nth-child(10) {
+section.exclamationmarks span:nth-child(10) {
     animation-name: spin1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -314,7 +330,7 @@ section.exclamationmarks span:nth-child(11) {
 
 section.exclamationmarks span:nth-child(13) {
     animation-name: spin2;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -363,7 +379,7 @@ section.exclamationmarks span:nth-child(23) {
 
 .apostrophes {
     position: relative;
-    top: -40vh;
+    top: -45vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -386,7 +402,7 @@ section.apostrophes span:nth-child(3n) {
 
 section.apostrophes span:nth-child(4n) {
     animation-name: spin2;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;  
 }
@@ -400,7 +416,7 @@ section.apostrophes span:nth-child(5n) {
 
 section.apostrophes span:nth-child(1) {
     animation-name: spin1;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -428,19 +444,19 @@ section.apostrophes span:nth-child(11) {
 
 section.apostrophes span:nth-child(13) {
     animation-name: spin2;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
-section.apostrophes span:nth-child(14) {
+section.apostrophes div:nth-child(14) {
     animation-name: spin1;
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
-section.apostrophes div:nth-child(17) {
+section.apostrophes span:nth-child(17) {
     animation-name: spin1;
     animation-duration: 7s;
     animation-iteration-count: infinite;
@@ -463,7 +479,7 @@ section.apostrophes span:nth-child(21) {
 
 section.apostrophes span:nth-child(22) {
     animation-name: spin1;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -477,7 +493,7 @@ section.apostrophes span:nth-child(23) {
 
 .periods {
     position: relative;
-    top: -40vh;
+    top: -60vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -500,7 +516,7 @@ section.periods span:nth-child(3n) {
 
 section.periods span:nth-child(4n) {
     animation-name: spin2;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;  
 }
@@ -514,7 +530,7 @@ section.periods span:nth-child(5n) {
 
 section.periods span:nth-child(1) {
     animation-name: spin1;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -533,7 +549,7 @@ section.periods span:nth-child(7) {
     animation-timing-function: linear; 
 }
 
-section.periods div:nth-child(11) {
+section.periods span:nth-child(11) {
     animation-name: spin2;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -542,7 +558,7 @@ section.periods div:nth-child(11) {
 
 section.periods span:nth-child(13) {
     animation-name: spin2;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -591,7 +607,8 @@ section.periods span:nth-child(23) {
 
 .colonsandsemicolons {
     position: relative;
-    top: -60vh;
+    top: -85vh;
+    left: 5vw;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -601,7 +618,7 @@ section.periods span:nth-child(23) {
 }
 
 .colonandsemicolon {
-    margin: 60px;
+    margin: 70px;
 }
 
 section.colonsandsemicolons span:nth-child(3n) {
@@ -627,7 +644,7 @@ section.colonsandsemicolons span:nth-child(5n) {
 
 section.colonsandsemicolons span:nth-child(1) {
     animation-name: spin1;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -683,7 +700,7 @@ section.colonsandsemicolons span:nth-child(19) {
 
 section.colonsandsemicolons div:nth-child(21) {
     animation-name: spin1;
-    animation-duration: 9s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -704,7 +721,8 @@ section.colonsandsemicolons span:nth-child(23) {
 
 .commas {
     position: relative;
-    top: -75vh;
+    top: -125vh;
+    left: 5vw;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -726,7 +744,7 @@ section.commas span:nth-child(3n) {
 
 section.commas span:nth-child(4n) {
     animation-name: spin2;
-    animation-duration: 4s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;  
 }
@@ -740,7 +758,7 @@ section.commas span:nth-child(5n) {
 
 section.commas span:nth-child(1) {
     animation-name: spin1;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -803,14 +821,14 @@ section.commas span:nth-child(21) {
 
 section.commas span:nth-child(22) {
     animation-name: spin1;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
 section.commas span:nth-child(23) {
     animation-name: spin2;
-    animation-duration: 2.5s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -828,7 +846,7 @@ div.popup span:nth-child(1) {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    z-index: 1;
+    z-index: 10;
   }
   
   .popup .popuptext {
@@ -839,8 +857,8 @@ div.popup span:nth-child(1) {
     text-align: left;
     font-size: 20px;
     padding: 50px;
-    width: 500px;
-    z-index: 1;
+    width: 600px;
+    z-index: 10;
   }
   
   .popup:hover {
@@ -858,6 +876,8 @@ div.popup span:nth-child(1) {
   }
 
 .ending {
+    position: relative;
+    top: -150vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -866,7 +886,6 @@ div.popup span:nth-child(1) {
     color: white;
     font-size: 180px;
     margin: 0px 100px 0px 100px;
-    height: 120vh;
 }
 
 .endingtext {
