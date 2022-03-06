@@ -21,8 +21,8 @@ html {
 
 .punctuations {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     justify-content: center;
     font-family: 'Noto Serif', serif;
     color: white;
@@ -112,10 +112,17 @@ section.punctuations span:nth-child(8) {
 .keywords {
     color: red;
 }
+
+button {
+    font-size: 40px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
 .questionmarks {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     margin: 0;
     justify-content: center;
     font-family: 'Noto Serif', serif;
@@ -252,8 +259,8 @@ section.questionmarks span:nth-child(26) {
 
 .exclamationmarks {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     font-family: 'Noto Serif', serif;
     justify-content: center;
     /* margin-top: 5vh; */
@@ -379,8 +386,8 @@ section.exclamationmarks span:nth-child(26) {
 
 .apostrophes {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     font-family: 'Noto Serif', serif;
     justify-content: center;
     color: white;
@@ -498,8 +505,8 @@ section.apostrophes span:nth-child(26) {
 
 .periods {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     font-family: 'Noto Serif', serif;
     justify-content: center;
     color: white;
@@ -615,10 +622,129 @@ section.periods span:nth-child(26) {
     animation-timing-function: linear; 
 }
 
+.colonsandsemicolons {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-size: 200px;
+}
+
+.colonandsemicolon {
+    margin: 60px;
+}
+
+section.colonsandsemicolons span:nth-child(3n) {
+    animation-name: spin1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+}
+
+section.colonsandsemicolons span:nth-child(4n) {
+    animation-name: spin2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+}
+
+section.colonsandsemicolons span:nth-child(5n) {  
+    animation-name: spin1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+}
+
+section.colonsandsemicolons span:nth-child(1) {
+    animation-name: spin1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(2) {
+    animation-name: spin2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(7) {
+    animation-name: spin2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(11) {
+    animation-name: spin2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(13) {
+    animation-name: spin2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(14) {
+    animation-name: spin1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(17) {
+    animation-name: spin1;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(19) {
+    animation-name: spin2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons div:nth-child(21) {
+    animation-name: spin1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(22) {
+    animation-name: spin1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(23) {
+    animation-name: spin2;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.colonsandsemicolons span:nth-child(26) {
+    animation-name: spin1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
 .commas {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     font-family: 'Noto Serif', serif;
     color: white;
     font-size: 200px;
@@ -778,8 +904,8 @@ div.popup span:nth-child(1) {
 
 .ending {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 25% 25% 25% 25% 25%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     justify-content: center;
     font-family: 'Noto Serif', serif;
     color: white;
