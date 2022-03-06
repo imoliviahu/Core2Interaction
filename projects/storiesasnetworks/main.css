@@ -7,11 +7,13 @@ html {
 .title {
     position: relative;
     z-index: 0; 
-    top: 28vh; 
-    left: -7vw;
-    font-size: 9vw;
+    top: 35vh; 
+    left: 10vw;
+    font-size: 10vw;
     white-space: nowrap;
     animation: fadein 5s;
+    color: white;
+    font-family: 'Noto Serif', serif;
   }
 
   @keyframes fadein {
@@ -20,15 +22,17 @@ html {
   }
 
 .punctuations {
+    position: relative;
+    top: -10vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
     justify-content: center;
     font-family: 'Noto Serif', serif;
     color: white;
     font-size: 200px;
-    margin: 70px 100px 0px 100px;
     height: 100vh;
+    z-index: 1;
 }
 
 .punctuation {
@@ -38,34 +42,25 @@ html {
 }
 
 section.punctuations span:nth-child(1) {
-    grid-column: 3 / 5;
-    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    grid-row: 1;
     animation-name: spin1;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
-section.punctuations span:nth-child(2) {
-    grid-column: 3 / 5;
-    grid-row: 1 / 2;
-    animation-name: spin1;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
-section.punctuations span:nth-child(3) {
-    grid-column: 5 / 8;
-    grid-row: 1 / 4;
-    animation-name: spin2;
     animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
-section.punctuations span:nth-child(4) {
-    grid-column: 4 / 5;
+section.punctuations span:nth-child(2) {
+    grid-column: 4 / 6 ;
+    grid-row: 1 / 2;
+    animation-name: spin2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+section.punctuations span:nth-child(3) {
+    grid-column: 5 / 7;
     grid-row: 3 / 5;
     animation-name: spin1;
     animation-duration: 10s;
@@ -73,20 +68,29 @@ section.punctuations span:nth-child(4) {
     animation-timing-function: linear; 
 }
 
+section.punctuations span:nth-child(4) {
+    grid-column: 4 / 5;
+    grid-row: 3 / 5;
+    animation-name: spin2;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
 section.punctuations span:nth-child(5) {
     grid-column: 2 / 4;
     grid-row: 2 / 4;
-    animation-name: spin2;
-    animation-duration: 8s;
+    animation-name: spin1;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
 section.punctuations span:nth-child(6) {
-    grid-column: 6 / 7;
+    grid-column: 3 / 5;
     grid-row: 1 / 2;
     animation-name: spin2;
-    animation-duration: 9s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -94,17 +98,8 @@ section.punctuations span:nth-child(6) {
 section.punctuations span:nth-child(7) {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    animation-name: spin2;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
-section.punctuations span:nth-child(8) {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
     animation-name: spin1;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -483,8 +478,6 @@ section.apostrophes span:nth-child(23) {
 .periods {
     position: relative;
     top: -40vh;
-    position: relative;
-    top: -40vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -598,7 +591,7 @@ section.periods span:nth-child(23) {
 
 .colonsandsemicolons {
     position: relative;
-    top: -40vh;
+    top: -60vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
