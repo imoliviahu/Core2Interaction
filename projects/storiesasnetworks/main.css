@@ -109,10 +109,6 @@ section.punctuations span:nth-child(8) {
     animation-timing-function: linear; 
 }
 
-.keywords {
-    color: red;
-}
-
 button {
     font-size: 40px;
     border: none;
@@ -123,7 +119,6 @@ button {
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    margin: 0;
     justify-content: center;
     font-family: 'Noto Serif', serif;
     color: white;
@@ -232,13 +227,6 @@ section.questionmarks span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-section.questionmarks span:nth-child(26) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 @keyframes spin1 {
     from {
         transform:rotate(0deg);
@@ -258,12 +246,13 @@ section.questionmarks span:nth-child(26) {
 }
 
 .exclamationmarks {
+    position: relative;
+    top: -25vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     font-family: 'Noto Serif', serif;
     justify-content: center;
-    /* margin-top: 5vh; */
     color: white;
     font-size: 200px;
 }
@@ -377,14 +366,9 @@ section.exclamationmarks span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-section.exclamationmarks span:nth-child(26) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 .apostrophes {
+    position: relative;
+    top: -40vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -496,14 +480,11 @@ section.apostrophes span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-section.apostrophes span:nth-child(26) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 .periods {
+    position: relative;
+    top: -40vh;
+    position: relative;
+    top: -40vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -615,14 +596,9 @@ section.periods span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-section.periods span:nth-child(26) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 .colonsandsemicolons {
+    position: relative;
+    top: -40vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -733,15 +709,9 @@ section.colonsandsemicolons span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-section.colonsandsemicolons span:nth-child(26) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
-
 .commas {
+    position: relative;
+    top: -75vh;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -852,13 +822,6 @@ section.commas span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-section.commas span:nth-child(26) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 div.popup span:nth-child(1) {
     position: fixed;
     animation: none;
@@ -875,7 +838,6 @@ div.popup span:nth-child(1) {
     z-index: 1;
   }
   
-  /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
     position: absolute;
@@ -990,10 +952,6 @@ section.ending span:nth-child(8) {
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
-
-
-
-
 
 @media only screen and (max-width: 600px) {
     .punctuations{
