@@ -875,17 +875,53 @@ section.ending span:nth-child(8) {
 }
 
 @media only screen and (max-width: 600px) {
+    .punctuations{
+        margin: 0;
+        color: white;
+        height: 100vh;
+    }
     .punctuation{
-        font-size: 200px;
+        font-size: 250px;
     }
+    .title {
+        position: relative;
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        z-index: 0; 
+        top: 50vh; 
+        width: 100%;
+        margin-left: 30px;
+        font-size: 12vw;
+        animation: fadein 5s; 
+    }
+    
+    .questionmarks {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        grid-template-rows: 15% 15% 15% 15%;
+        margin: 0;
+        justify-content: center;
+        font-family: 'Noto Serif', serif;
+        color: white;
+        font-size: 80px;
+    }
+
     .questionmark {
-        font-size: 180px;
+        font-size: 80px;
     }
-    .pickme {
-        font-size: 180px;
+
+    .exclamationmarks {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        grid-template-rows: 15% 15% 15% 15%;
+        font-family: 'Noto Serif', serif;
+        justify-content: center;
+        color: white;
+        font-size: 80px;
     }
+
     .exclamationmark {
-        font-size: 180px;
+        font-size: 80px;
     }
     .apostrophe {
         font-size: 180px;
