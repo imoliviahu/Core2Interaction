@@ -1056,7 +1056,7 @@ section.ending span:nth-child(8) {
         position: relative;
         z-index: 0; 
         top: 53vh; 
-        left: 12vw;
+        left: 3vw;
         margin-left: 5px;
         font-size: 8vw;
         animation: fadein 5s; 
@@ -1181,17 +1181,17 @@ section.ending span:nth-child(8) {
       /* .popup:hover {
         color: red;
         animation-play-state: paused;
-    } */
+      } */
     
       .popup .popuptext::after {
         color: red;
-        animation-play-state: paused;
         content: "";
         position: absolute;
       }
       
       .popup .show {
         visibility: visible;
+        animation-play-state: paused;
       }
     
       .ending {
