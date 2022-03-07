@@ -1189,6 +1189,7 @@ section.ending span:nth-child(8) {
         color: red;
         content: "";
         position: absolute;
+        z-index: 10;
       }
       
       .popup .show {
