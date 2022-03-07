@@ -894,12 +894,14 @@ div.popup span:nth-child(1) {
     color: white;
     font-size: 1.5vw;
     margin: 0px 300px 0px 300px;
+    z-index: 0;
 }
 
 .punctuation2 {
     margin: 30px;
     color: red;
     font-size: 250px;
+    z-index: 5;
 }
 
 section.ending span:nth-child(1) {
@@ -1127,7 +1129,7 @@ section.ending span:nth-child(8) {
 
     .colonsandsemicolons {
         margin-top: 30px;
-        margin-left: 5px;
+        margin-left: 0;
         display: grid;
         grid-template-columns: 30% 30% 30% 30%;
         grid-template-rows: 15% 15% 15% 15% 15%;
@@ -1142,10 +1144,10 @@ section.ending span:nth-child(8) {
 
     .commas {
         margin-top: 30px;
-        margin-left: 5px;
+        margin-left: 0;
         display: grid;
         grid-template-columns: 30% 30% 30% 30%;
-        grid-template-rows: 15% 15% 15% 15% 15%;
+        grid-template-rows: 15% 15% 15% 15% 15% 15%;
         font-family: 'Noto Serif', serif;
         color: white;
         font-size: 80px;
@@ -1207,7 +1209,7 @@ section.ending span:nth-child(8) {
     }
     
     .endingtext {
-        top: -300vh;
+        top: -280vh;
         position: relative;
         font-family: 'Noto Serif', serif;
         color: white;
