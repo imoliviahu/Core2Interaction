@@ -1107,6 +1107,7 @@ section.ending span:nth-child(8) {
         justify-content: center;
         color: white;
         font-size: 80px;
+        z-index: 0;
     }
 
     .apostrophe {
@@ -1123,6 +1124,7 @@ section.ending span:nth-child(8) {
         justify-content: center;
         color: white;
         font-size: 80px;
+        z-index: 0;
     }
     
     .period {
