@@ -1180,10 +1180,10 @@ section.ending span:nth-child(8) {
         z-index: 10;
       }
       
-      /* .popup:hover {
+      .popup:hover {
         color: red;
         animation-play-state: paused;
-      } */
+      }
     
       .popup .popuptext::after {
         color: red;
