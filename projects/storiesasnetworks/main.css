@@ -239,7 +239,7 @@ section.questionmarks span:nth-child(7) {
 
 section.questionmarks span:nth-child(13) {
     animation-name: spin2;
-    animation-duration: 2s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
