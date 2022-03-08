@@ -354,13 +354,6 @@ section.exclamationmarks span:nth-child(2) {
     animation-timing-function: linear; 
 }
 
-section.exclamationmarks div:nth-child(7) {
-    animation-name: spin2;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 section.exclamationmarks span:nth-child(10) {
     animation-name: spin1;
     animation-duration: 8s;
@@ -496,13 +489,6 @@ section.apostrophes span:nth-child(13) {
     animation-timing-function: linear; 
 }
 
-section.apostrophes div:nth-child(14) {
-    animation-name: spin1;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 section.apostrophes span:nth-child(17) {
     animation-name: spin1;
     animation-duration: 7s;
@@ -606,13 +592,6 @@ section.periods span:nth-child(11) {
 section.periods span:nth-child(13) {
     animation-name: spin2;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
-section.periods div:nth-child(14) {
-    animation-name: spin1;
-    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -745,13 +724,6 @@ section.colonsandsemicolons span:nth-child(19) {
     animation-timing-function: linear; 
 }
 
-section.colonsandsemicolons div:nth-child(21) {
-    animation-name: spin1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 section.colonsandsemicolons span:nth-child(22) {
     animation-name: spin1;
     animation-duration: 3s;
@@ -824,13 +796,6 @@ section.commas span:nth-child(7) {
     animation-timing-function: linear; 
 }
 
-section.commas div:nth-child(11) {
-    animation-name: spin2;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
 section.commas span:nth-child(13) {
     animation-name: spin2;
     animation-duration: 10s;
@@ -880,47 +845,6 @@ section.commas span:nth-child(23) {
     animation-timing-function: linear; 
 }
 
-div.popup span:nth-child(1) {
-    position: fixed;
-    animation: none;
-}
-
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    z-index: 10;
-  }
-  
-  .popup .popuptext {
-    visibility: hidden;
-    position: absolute;
-    background-color: white;
-    color: black;
-    text-align: left;
-    font-size: 20px;
-    padding: 50px;
-    width: 600px;
-    z-index: 10;
-  }
-  
-  .popup:hover {
-    color: red;
-    animation-play-state: paused;
-}
-
-  .popup .popuptext::after {
-    content: "";
-    position: absolute;
-  }
-  
-  .popup .show {
-    visibility: visible;
-  }
 
 .ending {
     position: relative;
