@@ -12,25 +12,23 @@ html{
     font-size: 25px;
 }
 
-/* .topinfo {
-    position: fixed;
-    top: 1.5vh;
-    left: 93vw;
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    margin: 0;
-} */
-
-
-.container {
+.container, .container1 {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25% 25% 25%;
 }
 
+.container1 {
+    margin: 100px;
+}
+
 img {
     width: 90%;
+}
+
+h1 {
+    font-weight: 300;
 }
 
 .title1 {
@@ -181,11 +179,16 @@ img {
     grid-template-rows: 15% 15% 25% 15% 15% 25%;
 }
 
+.thirdhr {
+    grid-column: 5 / 6;
+    grid-row: 3 / 5;
+}
+
 .title3 {
     grid-column: 1;
     grid-row: 1; 
     font-family: 'Playfair Display', serif;
-    font-size: 180px;
+    font-size: 160px;
     text-align: center;   
     z-index: 1;
 }
