@@ -1,20 +1,10 @@
 
 body {
-    background-color: black;
+  background: radial-gradient(#e66465, #9198e5);
     margin: 0;
   }
   
   model-viewer {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
   }
-
-.interaction-prompt {
-    font-size: 150px;
-  }
-
-.HotspotAnnotation {
-    background-color: lightseagreen;
-    color: white;
-    font-size: 30px;
-}
