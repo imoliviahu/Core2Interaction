@@ -12,6 +12,7 @@ function changeToDarkMode(){
     anythingIWant.style.color = "white" ;
     console.log("dark mode is off!");
     isDark = false;
+    
 } else if(isDark === false) {
   
     darkModeButton.textContent = "LIGHT MODE";
@@ -23,11 +24,14 @@ function changeToDarkMode(){
 }
 
 function getRandomColor() {
-  var randomColor = Math.floor(Math.random()*16777215).toString(16);
-  document.body.style.background = "#" + randomColor;
-  color.innerHTML = "#" + randomColor;
-  console.log("background color changed!");
-}
-
-genNew.addEventListener("click", setBg);
-setBg();
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+   
+  function setRandomColor() {
+    $("#colorpad").css("background", getRandomColor());
+  }
