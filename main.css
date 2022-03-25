@@ -12,7 +12,6 @@ html{
 body {
     text-align: center;
     background: radial-gradient(#88F1EA, #9198e5);
-    /* background: radial-gradient(#FAF448, #F77911); */
     color: white;
     height: 400vh;
 }
@@ -75,7 +74,11 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    width: 90%;
+    width: 95%;
+}
+
+li {
+    padding: 2px;
 }
 
 button {

@@ -1,7 +1,8 @@
 
+var anythingIWant = document.body;
+var isDark = false;
 var darkModeButton = document.getElementById("buttonDarkMode");
 darkModeButton.addEventListener("click", changeToDarkMode);
-// console.log(darkModeButton);
 
 function changeToDarkMode(){
   if(isDark === true) {
@@ -21,23 +22,12 @@ function changeToDarkMode(){
 }
 }
 
-// function getRandomColor() {
-//     var letters = '0123456789ABCDEF';
-//     var color = '#';
-//     for (var i = 0; i < 6; i++) {
-//       color += letters[Math.floor(Math.random() * 16)];
-//     }
-//     return color;
-//   } 
-  
-//   function setRandomColor() {
-//     $("#colorpad").css("background", getRandomColor());
-//   }
+function getRandomColor() {
+  var randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.background = "#" + randomColor;
+  color.innerHTML = "#" + randomColor;
+  console.log("background color changed!");
+}
 
-const setBg = () => {
-    const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.body.style.background = "#" + randomColor;
-  }
-  
-  genNew.addEventListener("click", setBg);
-  setBg();
+genNew.addEventListener("click", setBg);
+setBg();
