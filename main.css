@@ -4,15 +4,28 @@ html{
     scroll-behavior: smooth;
 }
 
+#colorpad {
+    height: 400vh;
+    width: 100%;
+}
+
 body {
     text-align: center;
     background: radial-gradient(#88F1EA, #9198e5);
+    /* background: radial-gradient(#FAF448, #F77911); */
     color: white;
     height: 400vh;
 }
 
 .welcomepage {
     height: 100vh;
+}
+
+#name {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100pt;
 }
 
 h1 {
@@ -56,11 +69,36 @@ p {
     padding: 150px;
 }
 
-.navbar {
+.toolbar {
+    list-style: none;
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    width: 90%;
+}
+
+button {
+    color: white;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+  
+button:hover {
+    cursor: pointer;
+}
+  
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95%;
     top: 90vh;
+    height: 100%;
 }
 
 

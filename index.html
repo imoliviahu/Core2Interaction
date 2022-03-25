@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>Olivia Hu | Core 2: Interaction</title>
 </head>
-<body>
+<body id="colorpad">
+    <ul class="toolbar">
+        <li>
+            <button id="buttonDarkMode">DARK MODE</button>
+            <button onclick="setRandomColor()">JUST FOR FUN</button>
+        </li>
+    </ul>
+
     <div class="welcomepage">
         <h2 class="title">Core 2 : Interaction</h2>
-        <h1>Olivia Hu</h1>
+        <h1><a id="name" href="https://imoliviahu.github.io/index.html">Olivia Hu</a></h1>
         <div class="navbar">
             <h2><a href="#homework1">Students</a></h2>
             <h2><a href="#studio">Studio</a></h2>
@@ -31,7 +40,7 @@
         <div class="zooey"><a href="https://daniz053.github.io/">Zoey Poole</a></div>
         <div class="noor"><a href="https://noorselim.github.io/">Noor Selim</a></div>
         <div class="alex"><a href="https://alexsoukakos.github.io/alexandersoukakos.github.io/">Alexander Soukakos</a></div>
-        <div class="veronica"><a href="https://alexsoukakos.github.io/alexandersoukakos.github.io/">Veronica Speyer</a></div>
+        <div class="veronica"><a href="#">Veronica Speyer</a></div>
         <div class="yuka"><a href="https://pizzayuka.github.io/">Yuka Tamura</a></div>
         <div class="sidhya"><a href="https://parsons.sidhyatikku.com/">Sidhya Tikku</a></div>
         <div class="victoria"><a href="https://wintv133.github.io/">Victoria Winter</a></div>
@@ -53,5 +62,6 @@
         <p><a href="https://imoliviahu.github.io/projects/hw2-wikipedialayout/index.html">HW 2: Wikipedia Layout</a></p>
         <p><a href="https://imoliviahu.github.io/projects/hw3-photocollageessay/index.html">HW 3: Photo Collage Essay</a></p>
     </div>
+
 </body>
 </html>
