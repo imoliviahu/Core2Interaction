@@ -32,6 +32,20 @@ function getRandomColor() {
     return color;
   }
    
-  function setRandomColor() {
+function setRandomColor() {
     $("#colorpad").css("background", getRandomColor());
-  }
+}
+
+function increaseFontSize() {
+    txt = document.getElementById('name');
+    style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+    currentSize = parseFloat(style);
+    txt.style.fontSize = (currentSize + 100) + 'px';
+}
+
+function decreaseFontSize() {
+        txt = document.getElementById('name');
+        style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+        currentSize = parseFloat(style);
+        txt.style.fontSize = (currentSize - 100) + 'px';  
+}
