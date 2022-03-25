@@ -20,6 +20,12 @@ body {
     height: 100vh;
 }
 
+model-viewer {
+    width: 100vw;
+    height: 100vh;
+
+}
+
 #name {
     font-family: 'Bodoni Moda', serif;
     font-weight: 400;

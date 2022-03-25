@@ -10,10 +10,14 @@
 
     <title>Olivia Hu | Core 2: Interaction</title>
 </head>
+
 <body id="colorpad">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
     <ul class="toolbar">
         <li><button id="buttonDarkMode">DARK MODE</button></li>
-        <li><button onclick="setRandomColor()">JUST FOR FUN</button></li>
+        <li><button id="randomColor" onclick="setRandomColor()">JUST FOR FUN</button></li>
         <li><button onclick="increaseFontSize()">+</button></li>
         <li><button onclick="decreaseFontSize()">-</button></li>
     </ul>
@@ -63,6 +67,8 @@
         <p><a href="https://imoliviahu.github.io/projects/hw2-wikipedialayout/index.html">HW 2: Wikipedia Layout</a></p>
         <p><a href="https://imoliviahu.github.io/projects/hw3-photocollageessay/index.html">HW 3: Photo Collage Essay</a></p>
     </div>
+
+    <model-viewer src="https://cdn.glitch.global/964dd2ce-47bc-4ecb-9625-288ed96dd374/3Dexercise.glb?v=1648094205398" auto-rotate rotation-per-second="30deg"></model-viewer></model-viewer>
 
 </body>
 </html>
