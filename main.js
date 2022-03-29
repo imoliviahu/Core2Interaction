@@ -41,11 +41,17 @@ function increaseFontSize() {
     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
     currentSize = parseFloat(style);
     txt.style.fontSize = (currentSize + 100) + 'px';
+    // if(txt > 450 + 'px') {
+    //   txt = document.getElementById('name');
+    //   style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+    //   currentSize = parseFloat(style);
+    //   txt.style.fontSize = (currentSize) + 'px';
+    // }
 }
 
 function decreaseFontSize() {
         txt = document.getElementById('name');
         style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
         currentSize = parseFloat(style);
-        txt.style.fontSize = (currentSize - 100) + 'px';  
+        txt.style.fontSize = (currentSize - 100) + 'px'; 
 }
