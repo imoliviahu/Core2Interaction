@@ -57,6 +57,8 @@ h2{
 
 p {
     font-size: 20pt;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 200;
 }
 
 #homework1 {
@@ -140,3 +142,32 @@ a:link, a:visited{
     text-decoration: none;
     color: white;
 }
+
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    left: 39vw;
+  }
+  
+  .hand {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background-color: #111118;
+    
+    bottom: 99px;
+    left: 99px;
+    transform-origin: 50% 100%;
+  }
+  
+  .minute {
+    height: 75px;
+  }
+  
+  .second {
+    height: 90px;
+    background-color: #ff4141;
+  }
