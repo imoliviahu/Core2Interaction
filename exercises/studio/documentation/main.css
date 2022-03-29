@@ -4,11 +4,12 @@
     font-style: italic;
   }
 
-  @font-face {
+@font-face {
     font-family:'Redaction';
     src: url(Redaction-Regular.otf);
-  }
+}
 
+.e-resize {cursor: e-resize;}
 
 body {
     background-color: white;
@@ -77,13 +78,13 @@ img, video {
 #landingpage {
     position: relative;
     left: 25vw;
-    top: -15vh;
+    top: -20vh;
 }
 
 #lightpage {
     position: relative;
     left: 50vw;
-    top: -20vh;
+    top: -23vh;
 }
 
 #darkpage {
