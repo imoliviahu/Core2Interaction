@@ -1,68 +1,75 @@
-// Symmetry corresponding to the number of reflections. Change the number for different number of reflections 
-let symmetry = 6;   
+// let t = 0; // time variable
+// const yaxis = 1;
+// const xaxis = 2;
+// let b1, b2, c1, c2;
 
-let angle = 360 / symmetry;
-let saveButton, clearButton, mouseButton, keyboardButton;
-let slider;
+// function setup() {
+//   createCanvas(windowWidth, windowHeight);
+//   noStroke();
+//   fill(0, 0, 200);
 
-function setup() { 
-  createCanvas(windowWidth, windowHeight);
-  angleMode(DEGREES);
-  background(1000);
+//   b1 = color(255);
+//   b2 = color(0);
+//   c1 = color(204, 102, 0);
+//   c2 = color(0, 102, 153);
+  
 
-  // Creating the save button for the file
-  saveButton = createButton('save');
-  saveButton.mousePressed(saveFile);
+// }
 
-  // Creating the clear screen button
-  clearButton = createButton('clear');
-  clearButton.mousePressed(clearScreen);
+// function draw(){
+//   setGradient(50, 90, 540, 80, c1, c2, Y_AXIS);
+//   setGradient(50, 190, 540, 80, c2, c1, X_AXIS);
+// }
 
-  // Creating the button for Full Screen
-  fullscreenButton = createButton('Full Screen');
-  fullscreenButton.mousePressed(screenFull);
+// function setGradient(x, y, w, h, c1, c2, axis) {
+//   noFill();
 
-  // Setting up the slider for the thickness of the brush
-  brushSizeSlider = createButton('Brush Size Slider');
-  sizeSlider = createSlider(1, 32, 4, 0.1);
-}
+//   if (axis === X_AXIS) {
+//     // Left to right gradient
+//     for (let i = x; i <= x + w; i++) {
+//       let inter = map(i, x, x + w, 0, 1);
+//       let c = lerpColor(c1, c2, inter);
+//       stroke(c);
+//       line(i, y, i, y + h);
+//     }
+//   }
+// }
 
-// Save File Function
-function saveFile() {
-  save('design.jpg');
-}
+// function draw() {
+//   background(10, 10); // translucent background (creates trails)
 
-// Clear Screen function
-function clearScreen() {
-  background(127);
-}
+//   // make a x and y grid of ellipses
+//   for (let x = 0; x <= width; x = x + 30) {
+//     for (let y = 0; y <= height; y = y + 30) {
+//       // starting point of each circle depends on mouse position
+//       const xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
+//       const yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
+//       // and also varies based on the particle's location
+//       const angle = xAngle * (x / width) + yAngle * (y / height);
 
-// Full Screen Function
-function screenFull() {
-  let fs = fullscreen();
-  fullscreen(!fs);
+//       // each particle moves in a circle
+//       const myX = x + 20 * cos(2 * PI * t + angle);
+//       const myY = y + 20 * sin(2 * PI * t + angle);
+
+//       ellipse(myX, myY, 10); // draw particle
+//     }
+//   }
+
+//   t = t + 0.01; // update time
+// }
+
+function setup() {
+  resizeCanvas(windowWidth, windowHeight);
+  background("white");
 }
 
 function draw() {
-  translate(width / 2, height / 2);
-
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-    let mx = mouseX - width / 2;
-    let my = mouseY - height / 2;
-    let pmx = pmouseX - width / 2;
-    let pmy = pmouseY - height / 2;
-    
-    if (mouseIsPressed) {
-      for (let i = 0; i < symmetry; i++) {
-        rotate(angle);
-        let sw = sizeSlider.value();
-        strokeWeight(sw);
-        line(mx, my, pmx, pmy);
-        push();
-        scale(1, -1);
-        line(mx, my, pmx, pmy);
-        pop();
-      }
-    }
-  }
+  var d = random(0, 255);
+  var e = random(0, 255);
+  var f = random(0, 255);
+  fill(d,e,f);
+  noStroke();
+  var size = random(0, 200);
+  ellipse(mouseX, mouseY, size, size);
 }
+

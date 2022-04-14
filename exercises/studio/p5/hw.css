@@ -9,20 +9,21 @@ body {
     justify-content: center;
     /* This centers our sketch vertically. */
     align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(142deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   } 
 
 .container {
     z-index: 5;
     position: fixed;
     display:  flex;
-    font-family: 'Lora', serif;
-    font-size:  15vw;
+    font-family: 'Future', sans-serif;
+    font-size:  10vw;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    letter-spacing: 1px;
-    font-family: 'Playfair Display', serif;
     color: white;
+    left: 50%;
   }
 
   
