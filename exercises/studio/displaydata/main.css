@@ -1,0 +1,72 @@
+
+body {
+    background-color:  black;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .shelf {
+    margin: 0 auto;
+  }
+  
+  .book {
+    color: black;
+    font-size: 40px;
+    margin: 20px;
+    font-family: arial;
+    border-radius: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  .book1, .book2, .book3, .book4, .book5, .book6, .book7, .book8, .book9, .book10, .book11, .book12 {
+    padding: 15px;
+  }
+  .book1 {
+    background-color: lightseagreen;
+  }
+  
+  .book2 {
+    background-color: lightblue;
+  }
+  
+  .book3 {
+    background-color: lightcoral;
+  }
+  
+  .book4 {
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .book5 {
+    background-color: lightgreen;
+  }
+
+  .book6 {
+    background-color: lightpink;
+  }
+
+  .book7 {
+    background-color: lavender;
+  }
+
+  .book8 {
+    background-color: lightsalmon;
+  }
+
+  .book9 {
+    background-color: lightcyan;
+  }
+
+  .book10 {
+    background-color: lightslategray;
+  }
+
+  .book11 {
+    background-color: white;
+  }
+
+  .book12 {
+    background-color: lightgrey;
+  }

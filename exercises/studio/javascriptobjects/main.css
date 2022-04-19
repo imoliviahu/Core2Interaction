@@ -1,0 +1,161 @@
+
+body {
+    background-color:  #c5b6b6;
+    margin: 0;
+  }
+  
+  .garden {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  
+  .flower {
+    font-family: arial;
+    display: flex;
+    padding: 50px;
+    border: 2px solid black;
+    color: white;
+    width: 120px;
+  }
+  
+  .Dahlia {
+    background-color: red;
+    background-image: url("imgs/dahlia.jpeg");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .Poppy {
+    background-color: pink;
+    background-image: url("imgs/poppy.jpeg");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .Snapdragon {
+    background-color:  yellow;
+    background-image: url("imgs/snapdragon.jpeg");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .Ranunculus {
+    background-color:  powderblue;
+    background-image: url("imgs/ranunculus.jpeg");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .Anthurium {
+    background-color: blue;
+    background-image: url("imgs/anthurium.jpeg");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .Rose {
+    background-color: green;
+    background-image: url("imgs/rose.jpeg");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+/* 
+body {
+    background-color:  #f9d2f4;
+    margin: 0;
+  }
+  
+  .garden {
+    margin: 0 auto;
+  }
+  
+  .flower {
+    opacity: .5;
+    mix-blend-mode: difference;
+    color: #5F1B7A;
+    font-size: 10vw;
+    font-family: arial;
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  .Dahlia {
+    background-color: blue;
+  }
+  
+  .Poppy {
+    background-color: DarkCyan;
+  }
+  
+  .Snapdragon {
+    background-color:  CornflowerBlue;
+  }
+  
+  .Anthurium {
+    background-color: lightcyan;
+  }
+  
+  .Rose {
+    background-color: DodgerBlue;
+  } */
+
+/* 
+body {
+    background-color:  #bd367a;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .garden {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flower {
+    opacity: .5;
+    color: white;
+    font-size: 36px;
+    font-family: arial;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flower1 {
+      background-color: red;
+  }
+  
+  .flower2 {
+    background-color: green;
+  }
+  
+  .flower3 {
+    background-color: purple;
+  }
+  
+  .flower4 {
+    background-color: yellow;
+  }
+  
+  .flower5 {
+    background-color: blue;
+  }
+  
+  .flower6 {
+    background-color: orange;
+  }
+
+  .flower7 {
+    background-color: lightblue;
+  } */
