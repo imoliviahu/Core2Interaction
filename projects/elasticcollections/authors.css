@@ -23,21 +23,11 @@ ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     font-size: 40px;
     width: 20%;
     top: 5vh;
-    left: 70vw;
+    left: 85vw;
     height: 100%;
-}
-
-.years {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    font-size: 40px;
-    top: 25vh;
-    left: 86vw;
 }
 
 a:link{
@@ -53,7 +43,7 @@ a:hover{
 a:visited {
     color: white;
 }
-.container, .container2 {
+.container {
     position: absolute;
     display: grid;
     margin-top: 10%;
@@ -63,17 +53,17 @@ a:visited {
     gap: 100px;
 }
 
-.container div, .container2 div {
+.container div {
     font-family: "Arial", sans-serif;
-    font-size: 80px;
-    overflow-wrap: break-word;
+    font-size: 60px;
+    /* overflow-wrap: break-word; */
     color: black;
     background-color: white;
     aspect-ratio: 1 / 1.5;
     padding: 20px;
 }
 
-.container div:hover, .container2 div:hover {
+.container div:hover {
     box-shadow: 30px 30px hotpink;
     transition: box-shadow 0.5s ease-in-out;
 }
