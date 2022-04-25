@@ -1,9 +1,6 @@
 console.log("is our script file working?");
 
-let div = document.querySelector('div');
 let container = document.querySelector(".container");
-// let container2 = document.querySelector("container2")
-// let yearContainer = document.querySelector(".years");
 
 async function getData() { let response = await fetch('https://api.airtable.com/v0/appXdzIdAo46CAxO9/Table%201?api_key=keyuVrE4kiHC0DAL9'); 
                            let data = response.json(); 
@@ -14,20 +11,19 @@ getData().then(data => { makeList(data.records) });
 function makeList(records) { 
   for(let i = 0; i < records.length; i++) { 
     let isbn = records[i].fields.isbn;
+    let year = records[i].fields.year;
     let listItem = document.createElement('div'); 
+    listItem.classList.add(year);
     listItem.classList.add("isbn");
     listItem.innerHTML = isbn;
     container.appendChild(listItem);
+     
+}}
 
-    // let year = records[i].fields.year;
-    // let yearItem = document.createElement('div');
-    // yearItem.classList.add("yearslist");
-    // yearItem.innerHTML = year;
-} }
 
-//    async function getData() { let response = await fetch('https://api.airtable.com/v0/appXdzIdAo46CAxO9/Table%201?api_key=keyuVrE4kiHC0DAL9'); 
-//    let data = response.json(); 
-//    return data; }
+// async function getData() { let response = await fetch('https://api.airtable.com/v0/appXdzIdAo46CAxO9/Table%201?api_key=keyuVrE4kiHC0DAL9'); 
+// let data = response.json(); 
+// return data; }
 
 // getData().then(data => { makeList(data.records) });
 
@@ -41,12 +37,10 @@ function makeList(records) {
 // listItem.setAttribute('data-year',year )
 // container.appendChild(listItem); 
 
-
 // let yearItem = document.createElement('div');
 // yearItem.setAttribute('data-year', year);
 // yearItem.classList.add("yearslist");
 // yearItem.innerHTML = year;
-
 
 // // This will make each year clickable
 // yearItem.addEventListener('click', function(event) {
@@ -63,7 +57,6 @@ function makeList(records) {
 // yearContainer.appendChild(yearItem);
 // } }
   
-
 
 // let container = document.querySelector("container");
 
@@ -112,6 +105,3 @@ function makeList(records) {
 //     container.div.appendChild(isbnNumber);
 
 //   });
-// }
-
-

@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html {
+body {
+    background: black;
+    background-size: 600% 600%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
-
-body {
-    /* background: black; */
-    background: linear-gradient(270deg, #00F0FF, #F230DF, #a187d3, #F5CA5C);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    color: white;
-    font-size: 80px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
 }
 
 @-webkit-keyframes AnimationName {
@@ -54,7 +46,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-#authors {
+#about {
     font-style: italic;
 }
 
@@ -68,6 +60,18 @@ ul{
     width: 28%;
     top: 8vh;
     left: 65vw;
+}
+
+.years {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20vw;
+    height: 60vh;
+    font-size: 2vw;
+    top: 35vh;
+    left: 78vw;
 }
 
 a:link{
@@ -85,38 +89,8 @@ a:visited {
 }
 
 .container {
-    position: absolute;
-    display: grid;
-    margin-top: 6%;
-    margin-left: 4%;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: repeat(22, 1fr);
-    gap: 100px;
-}
-
-.container div {
-    font-family: "Playfair Display", serif;
-    font-size: 60px;
-    color: black;
-    background-color: white;
-    aspect-ratio: 1 / 1.5;
-    padding: 20px;
-}
-
-.container div:hover {
-    box-shadow: 30px 30px black;
-    transition: box-shadow 0.5s ease-in-out;
-}
-
-.book {
-    height: 10vh;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.hidden {
-    display: none;
+    margin: 50px;
+    font-size: 30px;
 }
 
 
@@ -140,7 +114,7 @@ a:visited {
         font-size: 4vw;
         width: 30%;
         top: 8vh;
-        left: 75vw;
+        left: 30vw;
         height: 100%;
     }
 
@@ -151,28 +125,14 @@ a:visited {
         flex-direction: column;
         font-size: 12px;
         top: 3vh;
-        left: 75vw;
+        left: 80vw;
+    }
+    .years span {
+        padding: 2px;
     }
 
-    .container {
-        position: absolute;
-        display: grid;
-        margin-top: 10%;
-        margin-left: 5%;
-        grid-template-columns: 115px 115px;
-        grid-template-rows: repeat(22, 1fr);
-        gap: 20px;
-    }
-
-    .container div {
-        font-family: "Arial", sans-serif;
-        font-size: 20px;
-        overflow-wrap: break-word;
-        color: black;
-        background-color: white;
-        aspect-ratio: 1 / 1.5;
-        padding: 8px;
+    .container{
+        margin: 20px;
     }
 
   }
-
