@@ -135,10 +135,9 @@ a:visited {
         display: flex;
         flex-direction: row;
         font-size: 4vw;
-        width: 30%;
+        width: 60%;
         top: 8vh;
-        left: 30vw;
-        height: 100%;
+        left: 0vw;
     }
 
     .years {

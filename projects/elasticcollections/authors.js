@@ -13,9 +13,14 @@ getData().then(data => { makeList(data.records) });
 
 function makeList(records) { 
     for(let i = 0; i < records.length; i++) { 
+
+        let listItem = document.createElement('div');
+
+        let bookTitle = records[i].fields.booktitle;
+        
         let author = records[i].fields.author;
-        let authorItem = document.createElement('div');
-        authorItem.classList.add("author");
-        authorItem.innerHTML = author;
-        container.appendChild(authorItem);
+
+
+        listItem.innerHTML = bookTitle + ' by ' + author;
+        container.appendChild(listItem);
 } }
