@@ -10,15 +10,6 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-  
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
 
 h1 {
     color: white;
@@ -37,21 +28,22 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     font-size: 2vw;
-    width: 28%;
+    width: 30%;
     top: 8vh;
-    left: 65vw;
+    left: 63vw;
 }
 
 .years {
     position: absolute;
+    font-family: "Arial", sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 20vw;
-    height: 60vh;
+    width: 15vw;
+    height: 75vh;
     font-size: 2vw;
     top: 35vh;
-    left: 78vw;
+    left: 80vw;
 }
 
 .years span {
@@ -59,7 +51,6 @@ ul{
 }
 
 .years span:hover {
-    color: hotpink;
     cursor: pointer;
 }
 
@@ -68,9 +59,31 @@ a:link{
     color: white;
 }
 
-a:hover{
+a:hover, .years span:hover{
    font-style: italic; 
-   color: white;
+   background: linear-gradient(to right, #00F0FF 20%, #F230DF 40%, #a187d3 60%, #F5CA5C 80%);
+   background-size: 200% auto;
+   color: #000;
+   background-clip: text;
+   text-emphasis-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 a:visited {
@@ -78,11 +91,11 @@ a:visited {
 }
 
 .container {
-    /* width: 100%; */
     position: absolute;
     display: grid;
     margin-top: 6%;
     margin-left: 4%;
+    padding-bottom: 50px;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: repeat(22, 1fr);
     gap: 100px;

@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    /* background: black; */
     background: linear-gradient(270deg, #00F0FF, #F230DF, #a187d3, #F5CA5C);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 30s ease infinite;
@@ -92,6 +91,7 @@ a:visited {
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: repeat(22, 1fr);
     gap: 100px;
+    padding-bottom: 50px;
 }
 
 .container div {
@@ -104,6 +104,8 @@ a:visited {
 }
 
 .container div:hover {
+    background: white;
+    color: black;
     box-shadow: 30px 30px black;
     transition: box-shadow 0.5s ease-in-out;
 }
@@ -154,8 +156,8 @@ a:visited {
     }
 
     .container div {
-        font-family: "Arial", sans-serif;
-        font-size: 20px;
+        font-family: "Playfair Display", serif;
+        font-size: 10px;
         overflow-wrap: break-word;
         color: black;
         background-color: white;

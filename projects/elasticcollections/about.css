@@ -57,9 +57,9 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     font-size: 2vw;
-    width: 28%;
+    width: 30%;
     top: 8vh;
-    left: 65vw;
+    left: 63vw;
 }
 
 .years {
@@ -89,8 +89,12 @@ a:visited {
 }
 
 .container {
-    margin: 50px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40vw;
     font-size: 30px;
+    padding: 20px;
 }
 
 

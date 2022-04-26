@@ -20,7 +20,6 @@ function makeList(records) {
         
         let author = records[i].fields.author;
 
-
-        listItem.innerHTML = bookTitle + ' by ' + author;
+        listItem.innerHTML = bookTitle + '<br>' + ' by ' + '<br>' + author;
         container.appendChild(listItem);
 } }
