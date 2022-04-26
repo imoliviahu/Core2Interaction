@@ -138,6 +138,31 @@ a:visited {
     display: block;
 } 
 
+@media screen and (max-width: 1500px) {
+
+    .container {
+        position: absolute;
+        display: grid;
+        width: 80vw;
+        margin-top: 10%;
+        margin-left: 5%;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: repeat(22, 1fr);
+        gap: 50px;
+        margin-bottom: 80px;
+    }
+
+    .container div {
+        font-family: "Arial", sans-serif;
+        font-size: 80px;
+        overflow-wrap: break-word;
+        color: black;
+        background-color: white;
+        aspect-ratio: 1 / 1.5;
+        padding: 10px;
+    } 
+}
+
 @media screen and (max-width: 415px) {
     
     h1 {
