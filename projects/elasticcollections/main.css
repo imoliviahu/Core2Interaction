@@ -122,13 +122,13 @@ a:visited {
     transition: box-shadow 0.5s ease-in-out;
 }
 
-.hidden {
+/* .hidden {
     display: none;
-}
+} */
 
 .show {
     display: block;
-}
+} 
 
 @media screen and (max-width: 415px) {
     
