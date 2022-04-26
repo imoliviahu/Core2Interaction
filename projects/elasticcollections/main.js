@@ -49,16 +49,16 @@ function makeList(records) {
     let container = document.querySelector(".container");
     
     if(string === "1902") {
-      let years = container.querySelectorAll(".show");
-      years.forEach(thing => {
-        console.log(thing);
-        // thing.style.display = "block";
-      })
-    } else if(string !== "1902") {
       let years = container.querySelectorAll(".hidden");
       years.forEach(thing => {
         console.log(thing);
         thing.style.display = "none";
+      })
+    } else if(string !== "1902") {
+      years = container.querySelectorAll(".show");
+      years.forEach(thing => {
+        console.log(thing);
+        thing.style.display = "block";
       })
     }
       
