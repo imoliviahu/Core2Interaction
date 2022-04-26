@@ -70,20 +70,38 @@ ul{
     left: 63vw;
 }
 
-.years {
+.types {
     position: absolute;
+    font-family: "Playfair Display", serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 20vw;
-    height: 60vh;
-    font-size: 2vw;
-    top: 35vh;
-    left: 78vw;
+    width: 15vw;
+    height: 105vh;
+    font-size: 1.5vw;
+    top: 33vh;
+    left: 82vw;
 }
 
-a:link{
-    font-style: italic; 
+.types span {
+    padding: 0.3vw;
+    color: white;
+}
+
+.types span:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #00F0FF 20%, #F230DF 40%, #a187d3 60%, #F5CA5C 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+    text-decoration: none;
+}
+
+a:link{ 
     background: linear-gradient(to right, #00F0FF 20%, #F230DF 40%, #a187d3 60%, #F5CA5C 80%);
     background-size: 200% auto;
     color: #000;
