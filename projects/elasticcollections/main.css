@@ -154,12 +154,12 @@ a:visited {
 
     .container div {
         font-family: "Arial", sans-serif;
-        font-size: 80px;
+        font-size: 70px;
         overflow-wrap: break-word;
         color: black;
         background-color: white;
         aspect-ratio: 1 / 1.5;
-        padding: 10px;
+        padding: 20px;
     } 
 }
 
