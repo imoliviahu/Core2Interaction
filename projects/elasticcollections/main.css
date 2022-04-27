@@ -130,13 +130,6 @@ a:visited {
     }
   }
   
-/* .hidden {
-    display: none;
-} */
-
-.show {
-    display: block;
-} 
 
 @media screen and (max-width: 1500px) {
 
@@ -146,7 +139,7 @@ a:visited {
         width: 80vw;
         margin-top: 10%;
         margin-left: 5%;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 330px 330px 330px;
         grid-template-rows: repeat(22, 1fr);
         gap: 50px;
         margin-bottom: 80px;
@@ -154,13 +147,27 @@ a:visited {
 
     .container div {
         font-family: "Arial", sans-serif;
-        font-size: 70px;
+        font-size: 75px;
         overflow-wrap: break-word;
         color: black;
         background-color: white;
         aspect-ratio: 1 / 1.5;
         padding: 20px;
     } 
+
+    .years {
+        position: absolute;
+        font-family: "Arial", sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 10vw;
+        height: 105vh;
+        font-size: 2vw;
+        top: 37%;
+        left: 84vw;
+    }
+    
 }
 
 @media screen and (max-width: 415px) {
