@@ -7,7 +7,6 @@ body {
 }
 header {
   font-family: 'Bodoni Moda', serif;
-  letter-spacing: 5px;
   position: fixed;
   width: 98%;
   color: white;
