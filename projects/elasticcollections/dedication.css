@@ -89,8 +89,9 @@ ul{
 }
 
 .types span:hover {
+    font-style: italic;
     cursor: pointer;
-    background: linear-gradient(to right, #00F0FF 20%, #F230DF 40%, #a187d3 60%, #F5CA5C 80%);
+    background: linear-gradient(to left, #00F0FF 20%, #F230DF 40%, #a187d3 60%, #F5CA5C 80%);
     background-size: 200% auto;
     color: #000;
     background-clip: text;
