@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: linear-gradient(270deg, #00F0FF, #F230DF, #a187d3, #F5CA5C);
+    background: linear-gradient(270deg, #a187d3, #00F0FF, #F230DF, #F5CA5C);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
