@@ -10,9 +10,21 @@ function makeList(records) {
   for(let i = 0; i < records.length; i++) { 
     let dedication = records[i].fields.dedication;
     let listItem = document.createElement('div'); 
-    listItem.classList.add("dedication");
+    let dedicationType = records[i].fields.dedicationtype;
+    listItem.classList.add(dedicationType);
     listItem.innerHTML = dedication;
     container.appendChild(listItem);
-  
-    
 }}
+
+function filterItems(dedicationtype) {
+  let container = document.querySelector(".container");
+  for(let i = 0; i < container.children.length; i++) {
+    container.children[i].style.display = "none";
+  }
+  // show the one that has this year
+  let dedicationTypes = document.querySelectorAll(dedicationtype);
+  console.log(dedicationTypes);
+  dedicationTypes.forEach(thing => {
+  thing.style.display = "block";
+  
+  })}

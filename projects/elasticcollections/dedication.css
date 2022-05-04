@@ -182,21 +182,25 @@ a:visited {
         width: 80vw;
         margin-top: 10%;
         margin-left: 5%;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 330px 330px 330px;
         grid-template-rows: repeat(22, 1fr);
         gap: 50px;
         margin-bottom: 80px;
     }
 
     .container div {
-        font-family: "Arial", sans-serif;
-        font-size: 80px;
         overflow-wrap: break-word;
         color: black;
         background-color: white;
         aspect-ratio: 1 / 1.5;
-        padding: 10px;
+        padding: 20px;
     } 
+
+    .types {
+        top: 35vh;
+
+    }
+  
 }
 
 @media screen and (max-width: 415px) {
@@ -243,4 +247,21 @@ a:visited {
         padding: 10px;
     }
 
+    .types {
+        position: fixed;
+        font-family: "Playfair Display", serif;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 15vw;
+        height: 105vh;
+        font-size: 3vw;
+        top: 15vh;
+        left: 80vw;
+    }
+
+    .types span {
+        padding: 1vw;
+        color: white;
+    } 
   }
