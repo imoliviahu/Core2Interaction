@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #FBF4DE;
+  }
+
+.customCursor {
+  background-color: white;
+  position: absolute;
+  width: 0;
+}
+
+img {
+  width: 10vw;
+}
