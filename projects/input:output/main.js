@@ -22,3 +22,4 @@ window.addEventListener("mousemove", function(event){
   myCursor.style.top = event.pageY - 50 + "px";
   myCursor.style.left = event.pageX - 50 + "px";
 });
+
