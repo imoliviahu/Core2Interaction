@@ -59,6 +59,15 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.punctuation:hover, .punctuation2:hover {
+    color: red;
+    text-shadow:0px 0px 30px red;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
 section.punctuations span:nth-child(1) {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
@@ -149,6 +158,11 @@ section.punctuations span:nth-child(7) {
 
 #mybutton:hover, #mybutton2:hover, #mybutton3:hover, #mybutton4:hover, #mybutton5:hover, #mybutton6:hover {
     color: red;
+    text-shadow:0px 0px 30px red;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 button {
@@ -214,6 +228,15 @@ button {
 
 .questionmark {
     margin: 30px;
+}
+
+.questionmark:hover, .apostrophe:hover, .colonandsemicolon:hover, .exclamationmark:hover, .period:hover, .comma:hover {
+    color: white;
+    text-shadow:0px 0px 30px white;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 section.questionmarks span:nth-child(3n) {
