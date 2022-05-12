@@ -25,6 +25,8 @@ const imageArray = [
 
 let wrapper = document.querySelector(".wrapper");
 let myCursor = document.querySelector(".customCursor");
+let clearDrawing = document.querySelector(".clearDrawing");
+
 
 window.addEventListener("mousemove", function(event){
   console.log(event);
@@ -35,8 +37,15 @@ window.addEventListener("mousemove", function(event){
   newImg.src = imageArray[random];
   newImg.style.top = event.pageY - 60 + "px";
   newImg.style.left = event.pageX - 60 + "px";
-  var randomWidth = Math.floor(Math.random() * 15) + "vw";
+  var randomWidth = Math.floor(Math.random() * 10) + "vw";
   newImg.style.width = randomWidth;
   wrapper.appendChild(newImg);
 
 });
+
+// function clear(){
+//   let clear = document.getElementsByClassName("wrapper");
+  
+// }
+
+

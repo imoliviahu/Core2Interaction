@@ -1,4 +1,4 @@
-
+ 
 // // EXAMPLE 1 Create a 16 by 16 grid
 // let wrapper = document.querySelector(".wrapper");
 
