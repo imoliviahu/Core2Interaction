@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   overflow: hidden;
@@ -10,6 +11,68 @@ body {
   width: 0;
 }
 
-img {
+.navigation {
+  display: flex;
+  position: absolute;
+  justify-content: right baseline;
+  z-index: 100;
+}
+
+button {
+  padding: 20px;
+  background-color: pink;
+  border-radius: 20px;
+  border: none;
+  margin: 15px;
+}
+
+button:hover {
+  background: white;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>") 16 0,auto; /*!emojicursor.app*/ 
+}
+
+a:link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>") 16 0,auto; /*!emojicursor.app*/ 
+}
+
+a:visited {
+  color: black;
+}
+
+.flower{
+  position: absolute;
+  align-self: center;
+  /* width: 15vw; */
+}
+
+.flower2{
   width: 10vw;
 }
+
+.flower3 {
+  position: absolute;
+  align-self: center;
+}
+
+.wrapper2{
+  overflow: scroll;
+  height: 100vh;
+}
+
+.wrapper3 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
