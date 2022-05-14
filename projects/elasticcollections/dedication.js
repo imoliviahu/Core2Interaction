@@ -24,7 +24,7 @@ function filterItems(type) {
     container.children[i].style.display = "none";
   }
 
-  let types = document.querySelectorAll(type);
+  let types = document.querySelectorAll("." + type);
   console.log(types);
   types.forEach(thing => {
   thing.style.display = "block";
